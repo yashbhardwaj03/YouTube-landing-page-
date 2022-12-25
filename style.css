@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    margin: 10px 5px;
+    justify-content: space-between;
+}
+nav .flex-start{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.logo img{
+    width: 200px;
+    height: auto;
+    margin-right: 34px;
+}
+#center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#center .search{
+    display: flex;
+    justify-content: center;   
+}
+.search input{
+    width: 400px;
+    padding: 10px;
+    border: 1px solid gray; 
+    height: 40px; 
+    border-radius: 4px;
+}
+.search button{
+    background: rgb(238,238,238);
+    border: 1px solid gray;
+    border-radius: 4px;
+    height: 40px;
+    width: 50px;
+}
+.search img{
+    width: 35px;
+    height: 35px;
+    padding: 2px;
+}
+.mic{
+    margin-left: 10px;
+}
+.mic button{
+    background: transparent;
+    border: 1px solid gray;
+    border-radius: 25px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mic img{
+    width: 25px;
+    height: 25px;
+    padding: 2px;
+}
+.side-nav img{
+    width: 35px;
+    height: 35px;    
+}
+#video,#noti{
+    margin-right: 20px;
+}
+#avtar{
+    margin-right: 5px;
+}
+
+.side-nav{
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;    
+}
+.tags{
+    padding: 30px;
+    border-top: .5px solid gray;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.dark,.light{
+    border: 1px solid rgb(22,22,22);
+    padding: 1px 10px;
+    border-radius: 20px;
+    
+}
+.dark{
+    background: black;
+    color: white;
+}
+.light{
+    background: rgb(238,238,238);
+    color: rgb(67,67,67);
+}
+.blue a{
+    text-decoration: none;
+}
+.container{
+    display: flex;
+}
+aside{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.menu p{
+    font-size: 10px;
+    margin-top: -20px;
+}
+.menu img{
+    width: 35px;
+    height: auto;    
+}
+
+.views{
+    min-width: 100vh;
+    background: rgb(240,238,238);
+    padding: 20px;
+}
+.card img{
+    width: 300px;
+}
+.chennal img{
+    width: 40px;
+}
+.chennal p{
+    font-size: 20px;
+    padding-right: 50px;
+}
+.chennal #dots{
+    width: 20px;
+}
+.chennal_name p{
+    font-size: 10px;
+}
+.content p{
+    font-size: 8px;
+}
+.views{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,300px);
+    gap: 50px;
+    
+}
+.card{
+    padding: 10px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.chennal{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px
+    
+}
+.chennal_name p{
+    display: flex;
+    padding-left: 45px;
+}
+.content p{
+    display: flex;
+    padding-left: 45px;
+}
+.discription{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
